@@ -1,0 +1,15 @@
+node_modules/
+.env
+*.log
+!modules/16-files-and-json/sample-data/logs/*.log
+
+# Files created while you run examples, exercises and the project
+modules/16-files-and-json/output/
+modules/17-structuring-node-apps/**/data/*.json
+project/my-task-api/data/*.json
+project/solutions/*/data/*.json
+
+# Temporary files made by the check and verify scripts
+**/.check-*.tmp.js
+**/.verify-*
+project/my-task-api/.verify/

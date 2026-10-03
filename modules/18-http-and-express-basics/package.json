@@ -1,0 +1,8 @@
+{
+  "name": "module-18-http-and-express-basics",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

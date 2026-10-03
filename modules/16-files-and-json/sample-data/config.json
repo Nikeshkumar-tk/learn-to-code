@@ -1,0 +1,9 @@
+{
+  "appName": "Tasky",
+  "port": 4000,
+  "features": {
+    "darkMode": true,
+    "betaSearch": false
+  },
+  "admins": ["ana", "ben"]
+}

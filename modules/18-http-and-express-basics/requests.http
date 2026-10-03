@@ -1,0 +1,19 @@
+### Optional: if you use VS Code, install the "REST Client" extension,
+### open this file, and click "Send Request" above any request.
+
+GET http://localhost:3000/books
+
+###
+GET http://localhost:3000/books/1
+
+###
+GET http://localhost:3000/books?author=tolkien&sort=year
+
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{ "title": "Dune", "author": "Frank Herbert", "year": 1965 }
+
+###
+DELETE http://localhost:3000/books/2

@@ -1,0 +1,6 @@
+Node.js lets you run JavaScript outside the browser.
+It is often used to build web servers and command-line tools.
+
+Reading and writing files is one of the first things
+a backend developer learns to do with Node.
+Files are how programs remember things between runs.

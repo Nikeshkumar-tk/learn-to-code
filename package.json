@@ -1,0 +1,15 @@
+{
+  "name": "learn-to-code",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An interactive course: programming fundamentals -> JavaScript -> Node.js -> Express.",
+  "type": "module",
+  "scripts": {
+    "progress": "node tools/progress.js",
+    "verify": "node tools/verify.js",
+    "verify:project": "node tools/verify-project.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,2 @@
+This is not a .log file. Programs that scan the logs folder should skip it.
+ERROR this line should not be counted

@@ -1,0 +1,11 @@
+{
+  "name": "module-19-express-in-depth",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"examples/07-structured-app/test/*.test.js\""
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

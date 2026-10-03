@@ -1,0 +1,17 @@
+{
+  "name": "my-task-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "cli": "node src/cli.js",
+    "check:m1": "node checks/m1.js",
+    "check:m2": "node checks/m2.js",
+    "check:m3": "node checks/m3.js",
+    "check:m4": "node checks/m4.js",
+    "check:m5": "node checks/m5.js",
+    "check:m6": "node checks/m6.js",
+    "check:m7": "node checks/m7.js",
+    "check:m8": "node checks/m8.js"
+  }
+}

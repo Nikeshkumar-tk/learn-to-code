@@ -1,0 +1,18 @@
+// Error types shared by every part of the app.
+// statusCode is used later by the Express error handler (Milestone 8).
+
+export class ValidationError extends Error {
+  constructor(message) {
+    super(message);
+    this.name = "ValidationError";
+    this.statusCode = 400;
+  }
+}
+
+export class NotFoundError extends Error {
+  constructor(message) {
+    super(message);
+    this.name = "NotFoundError";
+    this.statusCode = 404;
+  }
+}
